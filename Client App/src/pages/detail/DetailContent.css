@@ -1,0 +1,40 @@
+.detail-content {
+  margin: 0 20%;
+  margin-top: 40px;
+  position: relative;
+}
+
+.detail-title {
+  line-height: 36px;
+}
+.img-detail img {
+  width: 32%;
+  height: 250px;
+}
+.img-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.detail-apartments {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+.nine-night{ 
+  width: 30%;
+  background-color:  #acc8f3;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  
+  
+}
+.nine-night button{
+  width: 80%;
+  align-self: center;
+  margin-bottom: 10px;
+  height: 40px;
+}

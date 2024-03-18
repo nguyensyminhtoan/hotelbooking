@@ -1,0 +1,14 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+  margin: 30px 0;
+  line-height: 40px;
+}
+footer a {
+  text-decoration: none;
+}

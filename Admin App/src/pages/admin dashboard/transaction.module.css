@@ -1,0 +1,75 @@
+.transaction{
+  display:flex
+}
+.transaction-content{
+  margin-top: 43px;
+  border-top: 1px solid #ccc;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.transaction-content p{
+  color: rgb(194, 191, 191);
+  font-size: 18px;
+}
+.transaction-table{
+ 
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.493);
+  border-radius: 8px;
+  padding: 10px;
+}
+.transaction-table th,.transaction-table td{
+  border-bottom: 1px solid #ccc; 
+  padding: 8px; 
+  height: 30px;
+  text-align: left;
+}
+.transaction-content th:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.transaction-content td:nth-child(1) {
+  width: 3%;
+}
+.transaction-content td:nth-child(2) {
+  width: 15%;
+}
+.transaction-content td:nth-child(3) {
+  width: 10%;
+}
+.transaction-content td:nth-child(4) {
+  width: 20%;
+}
+.transaction-content td:nth-child(5) {
+  width: 8%;
+}
+.transaction-content td:nth-child(6) {
+  width: 20%;
+}
+.transaction-content td:nth-child(7) {
+  width: 8%;
+}
+.transaction-content td:nth-child(8) {
+  width: 8%;
+}
+.transaction-table p{
+  background-color: pink;
+  border-radius: 8px;
+  padding: 2px;
+  display: inline-block;
+  color: green;
+}
+.page-nav svg{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  
+
+}
+.page-nav{
+  display: flex;
+  align-items: center;
+  float: right;
+  gap:10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}

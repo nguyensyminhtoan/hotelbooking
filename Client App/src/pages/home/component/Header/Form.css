@@ -1,0 +1,33 @@
+.search-form {
+  border: 2px solid #fec527;
+  background-color: #ffffff;
+
+  transform: translateY(50%);
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.button {
+  background-color: #2189cf;
+  color: white;
+  padding: 5px;
+}
+
+.search-button {
+  margin-right: 10px;
+}
+.search-form input {
+  width: 32%;
+  border: none;
+}
+.search-form select{
+  border: none;
+}
+.search-form i {
+  padding-left: 10px;
+  
+}

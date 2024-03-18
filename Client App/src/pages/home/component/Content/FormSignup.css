@@ -1,0 +1,28 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #003580;
+}
+.signup h2,
+.signup p {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.button-subscribe {
+  border-radius: 10%;
+
+  height: 42px;
+}
+.signup form {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.signup input {
+  border-radius: 10%;
+  width: 250px;
+  height: 36px;
+  margin-right: 10px;
+}

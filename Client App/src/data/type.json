@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Hotel",
+		"count": 233,
+		"image": "./images/type_1.webp"
+	},
+	{
+		"name": "Apartment",
+		"count": 2331,
+		"image": "./images/type_2.jpg"
+	},
+	{
+		"name": "Resort",
+		"count": 2331,
+		"image": "./images/type_3.jpg"
+	},
+	{
+		"name": "Villa",
+		"count": 2331,
+		"image": "./images/type_4.jpg"
+	},
+	{
+		"name": "Cabin",
+		"count": 2331,
+		"image": "./images/type_5.jpg"
+	}
+]

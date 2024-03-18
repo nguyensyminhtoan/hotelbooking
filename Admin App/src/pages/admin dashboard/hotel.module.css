@@ -1,0 +1,90 @@
+.hotel-table{
+  margin-left: 30px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.493); 
+  border-radius: 8px; 
+  padding: 10px;
+}
+.hotel{display: flex;
+}
+.hotel-content{
+  border-top: 1px solid rgb(194, 191, 191);
+  margin-top: 43px;
+  
+  padding: 10px;
+}
+.add-new{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-new button{
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px solid green;
+  background-color: #fff;
+  color: green;
+  padding: 5px 10px;
+}
+.add-new button:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+.add-new p{
+  color: rgb(194, 191, 191);
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.hotel-table th,.hotel-table td{
+  border-bottom: 1px solid #ccc; 
+  padding: 8px; 
+  height: 30px;
+  text-align: left;
+  
+}
+.hotel-content th:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.hotel-content td:nth-child(1) {
+  width: 3%;
+}
+.hotel-content td:nth-child(2) {
+  width: 20%;
+}
+.hotel-content td:nth-child(3) {
+  width: 30%;
+}
+.hotel-content td:nth-child(4) {
+  width: 10%;
+}
+
+.hotel-content td:nth-child(5) {
+  width: 30%;
+}
+.hotel-content td:nth-child(6) {
+  width: 10%;
+}
+.hotel-table p{
+  border: 1px dashed red;
+  border-radius: 8px;
+  padding: 4px;
+  display: inline-block;
+  color: red;
+  width: 50px;
+  }
+.hotel-table p:hover{
+    background-color: #ccc;
+    cursor:pointer;
+  }
+.hotel-table a{
+  text-decoration: none;
+  border: 1px dashed green;
+  border-radius: 8px;
+  padding: 4px;
+  display: inline-block;
+  color: green;
+  width: 50px;
+  text-align: center;
+  margin-top: 10px;
+}

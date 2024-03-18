@@ -1,0 +1,55 @@
+.form-booking{
+  margin: 0 20%;
+  margin-top: 40px;
+
+}
+.form-user{
+  display: flex;
+  gap:20px
+}
+.user-info{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 70%;
+}
+.user-info input{
+  height: 36px;
+}
+.rooms{
+  display: flex;
+  gap:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rooms-item{
+  display: flex;
+  gap:20px
+}
+.rooms-number{
+  display: flex;
+  gap:5px;
+  align-items: center;
+}
+.rooms-number div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payment{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.payment select{height: 50px;
+width: 250px;
+border-radius: 10px;
+}
+.payment button{
+  width: 180px;
+}
+.bill{
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}

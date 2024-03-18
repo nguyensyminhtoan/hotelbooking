@@ -1,0 +1,36 @@
+.search-popup {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  padding-right: 10px;
+  background-color: #febb02;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.form-booking-information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 2%;
+}
+.detail-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.detail-information input {
+  width: 10%;
+  margin: 0 20px;
+}
+.detail-information label {
+  margin-left: 10px;
+}
+.search-popup h2 {
+  margin-left: 2%;
+}
+.search-popup button {
+  margin-left: 3%;
+}

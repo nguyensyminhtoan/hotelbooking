@@ -1,0 +1,11 @@
+.search {
+  display: flex;
+  padding: 30px 20%;
+}
+.search > :first-child {
+  flex-grow: 4; 
+}
+
+.search > :last-child {
+  flex-grow: 6; 
+}

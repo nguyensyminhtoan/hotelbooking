@@ -1,0 +1,32 @@
+.sidebar svg{
+  width: 12px;
+  fill: rgb(142, 20, 241) 
+}
+
+.sidebar-items{
+  display:flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(194, 191, 191);
+  
+  margin-top: 10px;
+  padding-top: 15px;
+  height: 100vh;
+}
+.sidebar h2{
+  text-align: center;
+}
+.sidebar{
+  width: 200px;
+  margin-left: 20px;
+  border-right: 1px solid rgb(194, 191, 191);
+}
+.sidebar p{
+  color: rgb(122, 118, 118);
+  font-size: 12px;
+}
+.sidebar a{
+  margin-left: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}

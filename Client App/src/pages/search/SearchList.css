@@ -1,0 +1,79 @@
+.card-searchlist {
+  display: flex;
+  width: 90%;
+  border: 1px solid #9f9f9f;
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.card-searchlist img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.detail-searchlist {
+  margin-right: 10px;
+  width: 40%;
+}
+.name-hotel {
+  color: #5884c2;
+}
+.tag {
+  background-color: #008009;
+  display: inline-block;
+  padding: 1px;
+  color: #fff;
+  border-radius: 10px;
+}
+.description {
+  font-weight: bold;
+}
+.free_cancel {
+  color: #238c32;
+  font-weight: bold;
+}
+.free_cancel-detail {
+  color: #238c32;
+}
+.rate-searchlist {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50%;
+}
+.button {
+  border-radius: 10px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+.rate-searchlist button {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+.rate :last-child {
+  border: 1px solid;
+  padding: 1px;
+}
+.desc{
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Số dòng tối đa */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rate-searchlist button a {
+  text-decoration: none;
+  color: #fff;
+}

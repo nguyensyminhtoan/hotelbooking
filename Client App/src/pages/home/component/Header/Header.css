@@ -1,0 +1,10 @@
+.header {
+  background-color: #003580;
+  color: white;
+  padding: 0 21%;
+}
+.header h1,
+.header p,
+.header .signin-button {
+  margin-bottom: 15px;
+}

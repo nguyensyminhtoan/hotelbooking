@@ -1,0 +1,27 @@
+.transaction{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.transaction-table {
+  margin-top: 24px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.transaction-table th, .transaction-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.transaction-table th {
+  background-color: #32a4c1;
+}
+.transaction-table tr:nth-child(odd) {
+  background-color: #e9e5e5;
+}
+.transaction-table p {
+  background-color: #ee9561;
+  padding: 10px 5px;
+  border-radius: 10px;
+}

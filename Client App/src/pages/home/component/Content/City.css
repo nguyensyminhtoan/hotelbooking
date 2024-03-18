@@ -1,0 +1,25 @@
+.card-city {
+  width: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  height: 300px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+   border-radius: 10px
+}
+.city {
+  margin-top: 50px;
+  padding: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-city h2,
+.card-city h3 {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+}
