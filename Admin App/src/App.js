@@ -29,7 +29,6 @@ function App()
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboard/hotels" element={<Hotels />} />
         <Route path="/dashboard/new-hotel" element={<NewHotel />} />
-
         <Route path="/dashboard/rooms" element={<Rooms />} />
         <Route path="/dashboard/new-room" element={<Newroom />} />
         <Route path="/dashboard/transactions" element={<Transaction />} />
