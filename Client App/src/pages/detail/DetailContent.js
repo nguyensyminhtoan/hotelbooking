@@ -13,7 +13,7 @@ const DetailContent = ({ handleBookNow }) =>
   {
     const fetchHotel = async () =>
     {
-      const request = await fetch(`http://localhost:5000/hotel-detail?hotelID=${hotelID}`)
+      const request = await fetch(`https://hotelbooking-u13m.onrender.com/hotel-detail?hotelID=${hotelID}`)
       const data = await request.json()
       if (request.ok)
       {

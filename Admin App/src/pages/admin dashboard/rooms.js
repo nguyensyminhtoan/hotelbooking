@@ -16,7 +16,7 @@ const Rooms = () =>
   {
     const fetchData = async () =>
     {
-      const request = await fetch('http://localhost:5000/rooms')
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/rooms')
       const data = await request.json()
 
       if (request.ok)
@@ -62,7 +62,7 @@ const Rooms = () =>
       {
         try
         {
-          const request = await fetch('http://localhost:5000/delete-rooms', {
+          const request = await fetch('https://hotelbooking-u13m.onrender.com/delete-rooms', {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ id: id })

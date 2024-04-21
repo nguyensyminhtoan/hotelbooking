@@ -28,7 +28,7 @@ const Login = () =>
     }
     const fetchLogin = async () =>
     {
-      const request = await fetch('http://localhost:5000/login', {
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/login', {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: email, password: password })

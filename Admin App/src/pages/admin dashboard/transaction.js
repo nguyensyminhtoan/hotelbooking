@@ -13,7 +13,7 @@ const Transaction = () =>
   {
     const fetchData = async () =>
     {
-      const requestTransaction = await fetch('http://localhost:5000/dashboard')
+      const requestTransaction = await fetch('https://hotelbooking-u13m.onrender.com/dashboard')
       const dataTransaction = await requestTransaction.json()
 
 

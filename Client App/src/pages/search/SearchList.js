@@ -13,7 +13,7 @@ const SearchList = () =>
     const sendData = async () =>
     {
 
-      const request = await fetch('http://localhost:5000/search', {
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/search', {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'

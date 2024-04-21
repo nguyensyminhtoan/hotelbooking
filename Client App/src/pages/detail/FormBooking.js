@@ -79,7 +79,7 @@ const FormBooking = ({ dataUser, dataHotels }) =>
       setErr({ message: "Please select the room you want!" })
       return
     }
-    const request = await fetch('http://localhost:5000/transaction', {
+    const request = await fetch('https://hotelbooking-u13m.onrender.com/transaction', {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({

@@ -26,7 +26,7 @@ const AuthPage = ({ onLoginSuccess }) =>
     }
 
 
-    const url = mode === 'signup' ? 'http://localhost:5000/create-user' : 'http://localhost:5000/login';
+    const url = mode === 'signup' ? 'https://hotelbooking-u13m.onrender.com/create-user' : 'https://hotelbooking-u13m.onrender.com/login';
 
     const request = await fetch(url, {
       method: 'POST',

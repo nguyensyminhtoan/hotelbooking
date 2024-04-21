@@ -10,7 +10,7 @@ const TransactionContent = ({ email }) =>
   {
     const fetchData = async () =>
     {
-      const request = await fetch('http://localhost:5000/your-transaction', {
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/your-transaction', {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify({ email: email })

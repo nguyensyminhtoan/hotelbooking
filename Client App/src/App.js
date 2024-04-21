@@ -26,7 +26,7 @@ function App()
     if (userInfo)
     {
       // Gửi thông tin người dùng đến server để kiểm tra đăng nhập
-      fetch('http://localhost:5000/', {
+      fetch('https://hotelbooking-u13m.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ function App()
 
   const fetchHotels = async () =>
   {
-    const request = await fetch('http://localhost:5000/hotel')
+    const request = await fetch('https://hotelbooking-u13m.onrender.com/hotel')
     const dataHotels = await request.json()
     setDataHotels(dataHotels)
 

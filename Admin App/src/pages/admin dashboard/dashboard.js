@@ -12,9 +12,9 @@ const Dashboard = () =>
   {
     const fetchData = async () =>
     {
-      const requestTransaction = await fetch('http://localhost:5000/dashboard')
+      const requestTransaction = await fetch('https://hotelbooking-u13m.onrender.com/dashboard')
       const dataTransaction = await requestTransaction.json()
-      const requestAllInformation = await fetch('http://localhost:5000/all')
+      const requestAllInformation = await fetch('https://hotelbooking-u13m.onrender.com/all')
       const response = await requestAllInformation.json()
       if (requestTransaction.ok)
       {

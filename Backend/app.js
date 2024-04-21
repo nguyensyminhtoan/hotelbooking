@@ -9,7 +9,12 @@ const authRoutes = require('./routes/auth')
 const hotelsRoutes = require('./routes/hotels')
 const transactionRoutes = require('./routes/transaction')
 
-app.use(cors())
+app.use(cors({
+  origin: ["https://hotelbooking-0mdl.onrender.com",
+    "https://hotelbooking-admin-21mc.onrender.com"
+  ],
+  credentials: true
+}))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json())
 

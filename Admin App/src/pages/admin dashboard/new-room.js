@@ -20,14 +20,14 @@ const Newroom = () =>
   {
     const fetchHotel = async () =>
     {
-      const request = await fetch('http://localhost:5000/hotel')
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/hotel')
       const hotel = await request.json()
       setHotel(hotel.map(hotel => hotel.name))
 
     }
     const fetchRoomsDetail = async () =>
     {
-      const request = await fetch(`http://localhost:5000/rooms-detail?roomsId=${roomsId}`)
+      const request = await fetch(`https://hotelbooking-u13m.onrender.com/rooms-detail?roomsId=${roomsId}`)
       const roomsDetail = await request.json()
       setRooms(roomsDetail.roomNumbers.join(', '))
       setDescription(roomsDetail.desc)
@@ -58,7 +58,7 @@ const Newroom = () =>
     {
       const sendRequest = async () =>
       {
-        const request = await fetch(`http://localhost:5000/edit-room?roomsId=${roomsId}`, {
+        const request = await fetch(`https://hotelbooking-u13m.onrender.com/edit-room?roomsId=${roomsId}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -84,7 +84,7 @@ const Newroom = () =>
     }
     const sendRequest = async () =>
     {
-      const request = await fetch('http://localhost:5000/add-room', {
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/add-room', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

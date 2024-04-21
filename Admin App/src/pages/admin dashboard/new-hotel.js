@@ -27,7 +27,7 @@ const NewHotel = () =>
 
     const fetchHotel = async () =>
     {
-      const request = await fetch(`http://localhost:5000/hotel-detail?hotelID=${hotelId}`)
+      const request = await fetch(`https://hotelbooking-u13m.onrender.com/hotel-detail?hotelID=${hotelId}`)
       const dataHotel = await request.json()
       if (request.ok)
       {
@@ -75,7 +75,7 @@ const NewHotel = () =>
     {
       const sendRequest = async () =>
       {
-        const request = await fetch(`http://localhost:5000/edit-hotel?hotelId=${hotelId}`, {
+        const request = await fetch(`https://hotelbooking-u13m.onrender.com/edit-hotel?hotelId=${hotelId}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -107,7 +107,7 @@ const NewHotel = () =>
     }
     const sendRequest = async () =>
     {
-      const request = await fetch('http://localhost:5000/add-hotel', {
+      const request = await fetch('https://hotelbooking-u13m.onrender.com/add-hotel', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
