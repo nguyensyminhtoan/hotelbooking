@@ -11,7 +11,8 @@ const transactionRoutes = require('./routes/transaction')
 
 app.use(cors({
   origin: ["https://hotelbooking-0mdl.onrender.com",
-    "https://hotelbooking-admin-21mc.onrender.com"
+    "https://hotelbooking-admin-21mc.onrender.com",
+    "http://localhost:3000/"
   ],
   credentials: true
 }))
