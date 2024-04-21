@@ -30,6 +30,7 @@
 <h2>Demo link:</h2>
 
 <p>It may take a minute or two to use because this is a free host</p>
+<p>In the admin app you need an admin account to use(admin@admin.com and pass 123456789)</p>
 <ul>
     <li>Client app: https://asm3-03wc.onrender.com/</li>
     <li>Admin app: https://admin-2axf.onrender.com/</li>
